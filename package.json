@@ -1,0 +1,16 @@
+{
+  "name": "assesment_one",
+  "version": "1.0.0",
+  "description": "Wizeline First Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-chrome": "testcafe chrome ./Tests",
+    "test-safari": "testcafe safari ./Tests",
+    "test-firefox": "testcafe firefox ./Tests",
+    "test-all-browsers": "testcafe all ./Tests",
+    "test-chome-headless": "testcafe chrome:headless ./Tests "
+  },
+  "author": "Jose Miguel Hernandez Neri",
+  "license": "ISC"
+}
